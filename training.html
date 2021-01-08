@@ -31,10 +31,10 @@
             <div class="container">
                 <div class="collapse navbar-collapse" id="nucampNavbar">
                     <ul class="navbar-nav nav-tabs nav-fill">
-                            <li class="nav-item active"><a class="nav-link"  href="#"> </i>Home </a></li>
+                            <li class="nav-item"><a class="nav-link"  href="#"> </i>Home </a></li>
                             <li class="nav-item"><a class="nav-link" href="legal-resources.html"> Legal Resources</a></li>
                             <li class="nav-item"><a class="nav-link" href="networking.html"> Networking</a></li>
-                            <li class="nav-item"><a class="nav-link" href="training.html">Training</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="training.html">Training</a></li>
                     </ul>
                 </div>
             </div>
@@ -45,32 +45,62 @@
     <div class="container">
 
         <div class="row row-content">
-
             <div class="col-md-8 mx-auto">
+                <div id="homeCarousel" class="carousel slide" data-ride="carousel">
 
-                <div class="card">
+                    <ol class="carousel-indicators">
+                        <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#homeCarousel" data-slide-to="1"></li>
+                        <li data-target="#homeCarousel" data-slide-to="2"></li>
+                    </ol>  
 
-                    <h3 class="card-header">What is the Nebraska Lawyer Hub?</h3>
+                    <div class="carousel-inner">
 
-                    <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/seal-color.webp" alt="Nebraska Seal">
+                            <div class="carousel-caption">
+                                <h3>Nebraska Legislative Update</h3>
+                                <p class="d-none d-sm-block">Join us for this informative seminar on what is happening in the Nebraska Legislature.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/map-seal.png" alt="Map Seal">
+                            <div class="carousel-caption">
+                                <h3>COVID-19 Risk Management</h3>
+                                <p class="d-none d-sm-block">Join us for this informative seminar on what is happening in the Nebraska Legislature.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/state-outline.jpg" alt="Nebraska Outline">
+                            <div class="carousel-caption">
+                                <h3>Supreme Court Update</h3>
+                                <p class="d-none d-sm-block">Join us for this informative seminar on what is happening in the Nebraska Legislature.</p>
+                            </div>
+                        </div>
+
+                        
+                        <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+
+                        <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon">
+                            <span class="sr-only">Next</span>
+                        </a>
+
+
+                            <button class="btn btn-sm btn-danger" id="carouselButton">
+                                <i class="fa fa-pause"></i>
+                            </button>
+
+
                     </div>
-
-                </div>
-
-            </div>
-
-             <div class="col-md-4 mx-auto">
-                <div class="card">
-                    <h3 class="card-header mx-auto">Member Spotlight</h3>
-                    <div class="card-body">
-                        <img class="card-img"src="img/member-spotlight.jpg">
-                        <p> In this space, we will feature a Nebraska lawyer every month. We will provide inforamtion about the lawyer's practice and contributions the lawyer has made to the Nebraska legal community. There will be a photo a short paragrpah of text. We will also feature a link to the lawyer's practice website.  </p>
-                    </div>
                 </div>
             </div>
-        </div>    
+        </div>
     </div>
             
 
